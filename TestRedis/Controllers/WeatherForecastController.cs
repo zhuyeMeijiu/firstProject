@@ -23,6 +23,7 @@ namespace TestRedis.Controllers
         {
             _logger = logger;
         }
+        //123
         RedisHelper redisHelper = new RedisHelper("127.0.0.1:6379,password=123456,127.0.0.1:6379,password=123456");
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
